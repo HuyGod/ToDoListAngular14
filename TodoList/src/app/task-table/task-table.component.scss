@@ -1,0 +1,27 @@
+table {
+    list-style-type:none ;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .even{
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+  }
+  .odd{
+    background-color: rgb(11, 11, 11);
+    color: rgb(255, 255, 255);
+  }
+  tr{
+ height: 50px;
+ text-align: left;
+ flex-wrap: nowrap;
+ display: flex;
+ justify-content: space-between;
+  }
+  td{
+    margin-left: 1rem;
+  }
+  .is-done{
+    text-decoration: line-through;
+  }
